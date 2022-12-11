@@ -1,0 +1,9 @@
+{
+    "firstname":"Vipulkumar",
+    "lastname":"patel",
+    "blankfieldvalidationmsg":"This field is required.",
+    "mobileno":"123456789",
+    "email":"test@techivp.com",
+    "message":"I am using fixture file to read the test data",
+    "courseselection":"Cypress"
+}
