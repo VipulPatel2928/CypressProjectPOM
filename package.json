@@ -1,0 +1,26 @@
+{
+  "name": "cypresspractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open",
+    "vp": "cypress run --headed --browser chrome",
+    "vp1": "cypress run --headed --browser chrome --spec \"cypress\\e2e\\Vp Test Folder\\Test1.cy.js\"",
+    "TestRetries" : "cypress run --headed --browser chrome --spec \"cypress\\e2e\\CypressLearningElements\\TestRetries.cy.js\""
+  },
+  "author": "Vipul",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.2",
+    "cypress": "^10.1.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-real-events": "^1.7.1"
+  }
+}
