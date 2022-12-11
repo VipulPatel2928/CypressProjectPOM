@@ -23,4 +23,17 @@ export default class HomePageActions{
         homeelements.eleReadMoreBtn().click();
     }
 
+    clickNavBar(){
+        homeelements.eleNavBar().click();
+    }
+
+    verifyNavBarOptionList(){
+        const arry = ['Home','About','Courses','Testimonials','Contact']
+        var i = 0;
+        homeelements.eleNavBaroptionsList().each((element)=>{
+                cy.log(element.text())
+                expect(element.text()).contain(arry[i])
+                i++;
+            })
+    }
 }

@@ -23,4 +23,13 @@ describe('Home Pag Test Cases', function () {
         homeactions.clickReadMoreBtn();
     })//end of it
 
+    it('Test Case 4 : Click Navigation Bar', () => {
+        homeactions.clickNavBar()
+    })//end of it
+
+    it('Test Case 5 : Verify Navigation Bar Options', () => {
+        homeactions.verifyNavBarOptionList()
+    })//end of it
+
+
 })//end of describe 

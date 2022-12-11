@@ -1,9 +1,17 @@
 ///<reference types = "cypress"/>
-export default class HomePageElements{
 
+import locator from '../PageLocator/HomePageLocator.json'
+
+
+export default class HomePageElements{
     eleReadMoreBtn(){
-        return cy.get('.container>a')
+        return cy.get(locator.readMoreBtnloc);
     }
 
-
+    eleNavBar(){
+        return cy.get(locator.navBarloc)
+    }
+    eleNavBaroptionsList(){
+        return cy.get(locator.navBarOptionslist)
+    } 
 }

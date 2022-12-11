@@ -1,0 +1,6 @@
+{
+
+    "readMoreBtnloc":".container>a",
+    "navBarloc":".navbar-toggler-icon",
+    "navBarOptionslist":".offcanvas-body>ul>li"
+}

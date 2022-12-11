@@ -1,0 +1,12 @@
+{
+    "inqueryfor_lo": "#contact_inquiry_for",
+    "first_last_name_lo": "#contact_name",
+    "mobileno_lo": "#contact_mobile",
+    "email_lo": "#contact_email",
+    "message_lo": "#contact_message",
+    "contact_name_error_lo": "#contact_name-error",
+    "contact_mobile_error_lo": "#contact_mobile-error",
+    "contact_email_error_lo": "#contact_email-error",
+    "contact_message_error_lo": "#contact_message-error",
+    "submitBtn_lo":"#Submit"
+}
