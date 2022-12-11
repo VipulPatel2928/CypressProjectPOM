@@ -2,7 +2,7 @@
 
 import HomePageActions from '../../pageobject/pageactions/HomePageActions.cy'
 
-describe('Home Pag Test Cases', function () {
+describe('Home Page Test Cases', function () {
 
      const homeactions = new HomePageActions();
  

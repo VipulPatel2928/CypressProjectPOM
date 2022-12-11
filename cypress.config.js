@@ -6,6 +6,17 @@ module.exports = defineConfig({
   video: true,
   pageLoadTimeout : 600000,
 
+  "reporter":"mochawesome",
+
+  "reporterOptions":{
+    "reportDir":"cypress/report",
+    "reportFilename":"TestResultReport",
+    "overwrite":false,
+    "html":true,
+    "json":true,
+    "charts":true
+  },
+
   e2e: {
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
@@ -23,5 +34,5 @@ module.exports = defineConfig({
     // Configure retry attempts for `cypress open`
     // Default is 0
     "openMode": 2
-  }  
+  },
 })

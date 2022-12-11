@@ -2,7 +2,7 @@
 
 import ContactPageActions from '../../pageobject/pageactions/ContactPageActions.cy'
 
-describe('Home Pag Test Cases', function () {
+describe('Contact Page Test Cases', function () {
 
      const contactactions = new ContactPageActions;
 
