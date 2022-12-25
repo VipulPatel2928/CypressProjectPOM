@@ -14,7 +14,8 @@ module.exports = defineConfig({
     "overwrite":false,
     "html":true,
     "json":true,
-    "charts":true
+    "charts":true,
+    "includeScreenshots": true
   },
 
   e2e: {

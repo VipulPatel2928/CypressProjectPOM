@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-11T12:43:20.431Z",
-    "end": "2022-12-11T12:43:28.450Z",
-    "duration": 8019,
+    "start": "2022-12-17T06:25:00.873Z",
+    "end": "2022-12-17T06:25:15.222Z",
+    "duration": 14349,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6811423a-7605-4018-893c-dbd1379d15dc",
+      "uuid": "25c7d7bb-c26d-4815-a3df-f49681f12dfa",
       "title": "",
       "fullFile": "cypress\\e2e\\POMTests\\ContactPageTestsWithFixures.cy.js",
       "file": "cypress\\e2e\\POMTests\\ContactPageTestsWithFixures.cy.js",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8d75eb39-2d96-4787-ba69-cd0bd561a166",
-          "title": "Contact Page Test Cases",
+          "uuid": "b8c0ce93-e03b-4c6f-8d4f-ec72f17f3cb1",
+          "title": "Contact Page Test Cases with Fixture File",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Test Case 1 : Fill ENQUIRE NOW form with use of fixure file",
-              "fullTitle": "Contact Page Test Cases Test Case 1 : Fill ENQUIRE NOW form with use of fixure file",
+              "fullTitle": "Contact Page Test Cases with Fixture File Test Case 1 : Fill ENQUIRE NOW form with use of fixure file",
               "timedOut": null,
-              "duration": 4186,
+              "duration": 3937,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,39 +47,39 @@
               "context": null,
               "code": "contactactions.SelectInqueryFor(data.courseselection);\ncontactactions.enterFirstLastName(data.firstname, data.lastname);\ncontactactions.enterMobileNo(data.mobileno);\ncontactactions.enterEmail(data.email);\ncontactactions.enterMessage(data.message);",
               "err": {},
-              "uuid": "99e338e4-ac92-4d31-a45d-c5b1f43f9200",
-              "parentUUID": "8d75eb39-2d96-4787-ba69-cd0bd561a166",
+              "uuid": "d66485b2-5abe-4d83-94cd-4fb06c66bea5",
+              "parentUUID": "b8c0ce93-e03b-4c6f-8d4f-ec72f17f3cb1",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
-              "fullTitle": "Contact Page Test Cases Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
+              "fullTitle": "Contact Page Test Cases with Fixture File Test Case 4 : Fill ENQUIRE NOW form Blank field Verification",
               "timedOut": null,
-              "duration": 1384,
+              "duration": 6919,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "contactactions.clickSubmitBtn();\ncontactactions.firstLastNameValidation(data.blankfieldvalidationmsg);\ncontactactions.mobileValidation(data.blankfieldvalidationmsg);\ncontactactions.emailValidation(data.blankfieldvalidationmsg);\ncontactactions.messageValidation(data.blankfieldvalidationmsg);",
               "err": {},
-              "uuid": "8429e01c-c950-4646-9aa0-74d17834cb6f",
-              "parentUUID": "8d75eb39-2d96-4787-ba69-cd0bd561a166",
+              "uuid": "20238abf-7a55-47e2-a3c6-6eefbd63b9e7",
+              "parentUUID": "b8c0ce93-e03b-4c6f-8d4f-ec72f17f3cb1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "99e338e4-ac92-4d31-a45d-c5b1f43f9200",
-            "8429e01c-c950-4646-9aa0-74d17834cb6f"
+            "d66485b2-5abe-4d83-94cd-4fb06c66bea5",
+            "20238abf-7a55-47e2-a3c6-6eefbd63b9e7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5570,
+          "duration": 10856,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -118,7 +118,8 @@
         "overwrite": false,
         "html": true,
         "json": true,
-        "charts": true
+        "charts": true,
+        "includeScreenshots": true
       },
       "version": "6.2.0"
     }
